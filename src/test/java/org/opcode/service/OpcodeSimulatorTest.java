@@ -7,6 +7,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.opcode.model.RegisterState;
+import org.opcode.service.v1.OpcodeSimulatorImpl;
 
 @TestInstance (TestInstance.Lifecycle.PER_CLASS)
 class OpcodeSimulatorTest {
@@ -14,7 +15,7 @@ class OpcodeSimulatorTest {
 
     @BeforeEach
     void setup() {
-        //TODO: setup simulator
+        this.simulator = new OpcodeSimulatorImpl();
     }
 
     @Test

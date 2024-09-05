@@ -31,4 +31,11 @@ public class RegisterState {
             return v;
         });
     }
+
+    @Override
+    public String toString() {
+        return "RegisterState{" +
+                "registers=" + registers +
+                '}';
+    }
 }

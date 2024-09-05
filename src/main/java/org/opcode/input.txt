@@ -1,0 +1,7 @@
+SET B 7
+ADR C A
+ADD D 15
+MOV C D
+INR B
+DCR A
+RST

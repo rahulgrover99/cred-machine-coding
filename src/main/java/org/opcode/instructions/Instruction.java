@@ -1,2 +1,6 @@
-package org.opcode.instructions;public interface Instruction {
+package org.opcode.instructions;
+
+/** Represents an Instruction for Microprocessor **/
+public interface Instruction {
+    void execute();
 }

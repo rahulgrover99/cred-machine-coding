@@ -1,2 +1,9 @@
-package org.opcode.service;public class InstructionParser {
+package org.opcode.service;
+
+import org.opcode.instructions.Instruction;
+
+public interface InstructionParser {
+    Instruction parse(String instruction);
+
+
 }
