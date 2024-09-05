@@ -4,4 +4,3 @@ ADD D 15
 MOV C D
 INR B
 DCR A
-RST

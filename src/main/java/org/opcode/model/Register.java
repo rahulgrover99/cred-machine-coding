@@ -40,5 +40,13 @@ public class Register {
     public int hashCode() {
         return Objects.hash(name, value);
     }
+
+    @Override
+    public String toString() {
+        return "Register{" +
+                "name=" + name +
+                ", value=" + value +
+                '}';
+    }
 }
 
