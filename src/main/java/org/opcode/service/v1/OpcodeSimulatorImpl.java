@@ -21,7 +21,6 @@ public class OpcodeSimulatorImpl implements OpcodeSimulator {
             instruction.execute();
         }
 
-
         return registerState;
     }
 

@@ -3,6 +3,8 @@ package org.opcode.instructions;
 import org.opcode.model.Register;
 import org.opcode.model.RegisterState;
 
+import java.util.List;
+
 public class AddInstruction implements Instruction{
 
     private final Register register;
